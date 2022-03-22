@@ -1,0 +1,21 @@
+{
+    "name": "pc103-02/projet",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Core\\": "Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sébastien Montibert",
+            "email": "seb.montibert@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    }
+}
